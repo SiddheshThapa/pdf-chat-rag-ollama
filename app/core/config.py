@@ -18,7 +18,6 @@ class Settings(BaseSettings):
     OLLAMA_BASE_URL: str = "http://localhost:11434"
     OLLAMA_MODEL: str = "llama3:8b"
 
-    # Pydantic v2 way to set env file, replaces the old inner Config class
     model_config = SettingsConfigDict(env_file=".env", extra="ignore")
 
 @lru_cache
