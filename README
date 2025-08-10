@@ -1,3 +1,4 @@
+
  run these 2 commands below for docker image
 
 
@@ -5,7 +6,7 @@
 docker compose up -d --build
 
 2.  # pull ollama model
-	docker exec -it ollama ollama pull llama3:8b
+docker exec -it ollama ollama pull llama3:8b
 
 
      ## stop stack
