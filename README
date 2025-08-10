@@ -1,6 +1,9 @@
 
- run these 2 commands below for docker image
+--WORKING--
+Upload PDF → chunks → Chroma → ask via Ollama
 
+
+Run these 2 commands below for docker image
 
 1.  # start stack
 docker compose up -d --build
@@ -8,6 +11,7 @@ docker compose up -d --build
 2.  # pull ollama model
 docker exec -it ollama ollama pull llama3:8b
 
+ open http://localhost:8000/docs
 
      ## stop stack
 	docker compose down
